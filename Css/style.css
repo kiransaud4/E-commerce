@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.top {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3450980392)), to(rgba(0, 0, 0, 0.3137254902))), url(https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3450980392), rgba(0, 0, 0, 0.3137254902)), url(https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+  position: relative;
+}
+.top-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFf;
+}
+.top-content h1 {
+  font: size 4rem;
+  font-weight: bold;
+}
+.top-content h1 span {
+  color: orange;
+}
+
+.logo {
+  width: 90px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  padding: 20px;
+}
+
+.nav-pills .nav-link {
+  color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: transparent;
+  color: #000;
+  font-weight: 700;
+}
+
+.quote {
+  height: 70vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3450980392)), to(rgba(0, 0, 0, 0.3137254902))), url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3450980392), rgba(0, 0, 0, 0.3137254902)), url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+  position: relative;
+}
+
+.quote-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+}
+
+footer {
+  background: #16161E;
+}
+footer ul {
+  display: inline;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .icon {
+  color: #fff;
+  padding-left: 30px;
+}
+footer p {
+  color: #fff;
+}
+
+footer .col-lg-4 ul li {
+  display: inline-block;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+hr {
+  color: #fff;
+  padding-top: 5px;
+}/*# sourceMappingURL=style.css.map */

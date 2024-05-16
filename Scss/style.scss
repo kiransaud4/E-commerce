@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero{
+    img{
+        height: 240px;
+        object-fit: cover;
+    }
+}
+.top{
+    height: 100vh;
+    background: linear-gradient(#00000058, #00000050) , url(	https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+    position : relative;
+    &-content{
+        position: absolute;
+        left: 50%; top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: #FFf;
+        h1{
+            font: size 4rem;
+            font-weight: bold;
+            span{
+                color: orange;
+            }
+        }
+    }
+}
+.logo{
+    width: 90px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    padding: 20px;
+}
+ 
+.nav-pills .nav-link{
+    color: #000;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: transparent;
+    color: #000;
+    font-weight: 700;
+}
+.quote{
+    height: 70vh;
+    background: linear-gradient(#00000058, #00000050) , url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+    position : relative;
+}
+.quote-inner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 30px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+footer{
+    background: #16161E;
+    ul{
+       display: inline;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+
+        }
+       
+    }
+    .icon{
+        color: #fff;
+        padding-left:30px;
+    }
+    p{
+        color: #fff;
+    }
+}
+footer{
+    .col-lg-4{
+        ul{
+            li{
+                display: inline-block;
+                padding-left: 10px;
+                text-align: center;
+            }
+            
+        }
+    }
+}
+.offcanvas.show:not(.hiding), .offcanvas.showing{
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+hr{
+    color: #fff;
+    padding-top: 5px;
+}
+
